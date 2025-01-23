@@ -1,0 +1,34 @@
+
+@mixin btn-green{
+    background-color: $color-green;
+    border-radius: 12px;
+    color: $text-blue;
+    font-family: $font-roboto;
+    font-size: 24px;
+    border: transparent;
+    padding: 10px 20px;
+  
+}
+
+
+#zenaButton {
+    display: none;
+    cursor: pointer;
+    position: fixed; 
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $color-dark;
+    color: $color-white;
+    border: none;
+    i{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+    }
+  }

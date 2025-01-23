@@ -1,0 +1,25 @@
+@import "../themes/colors";
+
+
+/* Base CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul, ol {
+    list-style: none; /* Remove default bullets or numbers */
+}
+
+
+
+/* Base styles for <a> (anchor) */
+a {
+    text-decoration: none; /* Remove underlining */
+    display: inline-block;
+    color: $color-dark;
+}
+
+

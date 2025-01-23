@@ -1,0 +1,78 @@
+/* _typography.scss */
+@import "../themes/colors";
+
+$font-kanit: 'Kanit', sans-serif;
+$font-roboto: "Roboto", serif;
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-family: "Roboto", serif;
+    font-family: $font-kanit;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Helvetica', sans-serif;
+}
+
+@mixin heading3A{
+    color: #021638;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-shadow: -1px 1px 11.6px #FFF;
+}
+
+@mixin heading3 {
+    color: #021638;
+    text-align: center;
+    text-shadow: -1px 1px 11.6px #FFF;
+    font-family: Kanit;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 85px;
+    letter-spacing: -0.575px;
+}
+
+@mixin heading4{
+    color: #021437;
+    font-size: 45px;
+    font-family: Kanit;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 59px;
+    letter-spacing: -0.575px;
+}
+
+@mixin para1 {
+    color: #1E1E1E;
+    text-align: center;
+    font-feature-settings: 'dlig' on;
+    font-family: Kanit;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    /* 133.333% */
+    letter-spacing: 0.425px;
+}
+
+@mixin para-sm {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 133.333% */
+    letter-spacing: 0.425px;
+}
